@@ -60,6 +60,7 @@ st.markdown("""
         border-radius: 20px;
         font-size: 0.85rem;
         font-weight: 600;
+            
     }
     .error-box {
         background: #fff0f0;

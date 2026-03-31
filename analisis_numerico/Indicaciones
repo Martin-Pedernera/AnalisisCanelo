@@ -1,0 +1,37 @@
+2️⃣ Crear el entorno virtual (venv)
+
+Esto crea un entorno aislado para las librerías:
+
+python -m venv venv
+3️⃣ Activar el entorno virtual
+
+👉 En Windows (PowerShell):
+
+.\venv\Scripts\Activate.ps1
+
+👉 Si tira error, usar:
+
+venv\Scripts\activate
+4️⃣ Instalar las librerías
+
+Esto descarga TODO lo necesario automáticamente:
+
+pip install -r requirements.txt
+
+✔️ Este comando instala todas las librerías que usa el proyecto
+✔️ No tienen que instalar nada manualmente
+
+5️⃣ Ejecutar la aplicación
+
+Ir a la carpeta donde está el app.py (en tu caso):
+
+cd analisis_numerico
+
+Y ejecutar:
+
+streamlit run app.py
+6️⃣ Abrir en el navegador
+
+Se va a abrir solo, pero si no:
+
+👉 http://localhost:8501
